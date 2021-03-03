@@ -1,0 +1,83 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Chivo", sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #7a9de0;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  height: 35px;
+}
+h1#logo {
+  color: #7a9de0;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 67px;
+  margin-bottom: 30px;
+}
+
+footer {
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  background-color: #7a9de0;
+  text-align: center;
+  font-size: smaller;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #7a9de0;
+  width: 100%;
+  box-shadow: 1px 1px 3px #ccc;
+  background-image: radial-gradient(#fdfdfd, #7a9de0);
+}
+
+#greeting {
+  font-family: "Chivo", sans-serif;
+  font-size: 12em;
+  color: rgba(98, 105, 138, 0.8);
+  text-align: center;
+  width: 50%;
+  padding-right: 15px;
+}
+
+#content {
+  padding: 2em 1em;
+  text-align: center;
+  font-size: larger;
+  line-height: 1.45em;
+}
+
+figure img {
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 790px) {
+  #hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #greeting {
+    font-size: 10em;
+  }
+}
